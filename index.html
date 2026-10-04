@@ -1,0 +1,326 @@
+<!doctype html><html lang="sk"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Victoria Caffee · kaviareň Pri parku v Trenčíne-Záblatí — neoficiálny návrh</title>
+<meta name="description" content="Neoficiálny návrh homepage pre Victoria Caffee — útulná kaviareň s viacerými miestnosťami, denne čerstvé zákusky, Pri parku 25/23, Trenčín.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --plaster:#F1F1EC; --plaster-2:#E6E7E0; --green:#1F3832; --green-2:#2A4A42; --green-3:#16291F;
+  --brass:#B8914E; --brass-lt:#D9BD86; --ink:#1B1F1D; --muted:#57605A; --blush:#E7D2C9; --caramel:#C98B4A;
+  --hair:rgba(27,31,29,.16); --hair-lt:rgba(241,241,236,.2);
+  --serif:"Libre Bodoni","Bodoni 72",Didot,Georgia,serif; --sans:"Karla",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --damask-light:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='168' viewBox='0 0 120 168'%3E%3Cg fill='none' stroke='%231F3832' stroke-opacity='.11' stroke-width='1.4'%3E%3Cpath d='M60 14c11 18 16 30 0 58-16-28-11-40 0-58z'/%3E%3Cpath d='M60 72c20-12 38-2 34 18-3 13-19 14-20 4-1-7 9-8 10-2M60 72c-20-12-38-2-34 18 3 13 19 14 20 4 1-7-9-8-10-2'/%3E%3Cpath d='M60 72c7 20 7 42 0 64-7-22-7-44 0-64z'/%3E%3Cpath d='M60 104c14 2 26 12 28 26M60 104c-14 2-26 12-28 26M60 136c-8 8-8 14 0 20 8-6 8-12 0-20z'/%3E%3Cpath d='M0 0c6 10 6 18 0 26M120 0c-6 10-6 18 0 26M0 84h8M112 84h8'/%3E%3C/g%3E%3Cg fill='%231F3832' fill-opacity='.09'%3E%3Ccircle cx='60' cy='92' r='3'/%3E%3Ccircle cx='0' cy='84' r='2.5'/%3E%3Ccircle cx='120' cy='84' r='2.5'/%3E%3C/g%3E%3C/svg%3E");
+  --damask-dark:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='168' viewBox='0 0 120 168'%3E%3Cg fill='none' stroke='%23D9BD86' stroke-opacity='.16' stroke-width='1.4'%3E%3Cpath d='M60 14c11 18 16 30 0 58-16-28-11-40 0-58z'/%3E%3Cpath d='M60 72c20-12 38-2 34 18-3 13-19 14-20 4-1-7 9-8 10-2M60 72c-20-12-38-2-34 18 3 13 19 14 20 4 1-7-9-8-10-2'/%3E%3Cpath d='M60 72c7 20 7 42 0 64-7-22-7-44 0-64z'/%3E%3Cpath d='M60 104c14 2 26 12 28 26M60 104c-14 2-26 12-28 26M60 136c-8 8-8 14 0 20 8-6 8-12 0-20z'/%3E%3Cpath d='M0 0c6 10 6 18 0 26M120 0c-6 10-6 18 0 26M0 84h8M112 84h8'/%3E%3C/g%3E%3Cg fill='%23D9BD86' fill-opacity='.14'%3E%3Ccircle cx='60' cy='92' r='3'/%3E%3Ccircle cx='0' cy='84' r='2.5'/%3E%3Ccircle cx='120' cy='84' r='2.5'/%3E%3C/g%3E%3C/svg%3E");
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--plaster);color:var(--ink);font:400 17px/1.6 var(--sans);overflow-x:hidden}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+a:focus-visible{outline:2px solid var(--brass);outline-offset:3px}
+.w{max-width:1160px;margin:0 auto;padding:0 28px}
+.lab{font:700 12px/1.3 var(--sans);letter-spacing:.2em;text-transform:uppercase}
+.num{font-variant-numeric:tabular-nums lining-nums}
+.u{text-decoration:none;background:linear-gradient(currentColor,currentColor) 0 100%/0 1px no-repeat;transition:background-size .2s}
+.u:hover{background-size:100% 1px}
+
+.notice{background:var(--green-3);color:var(--plaster);font:500 13.5px/1.45 var(--sans);text-align:center;padding:9px 16px}
+
+/* wallpaper */
+.paper{background-color:var(--plaster);background-image:var(--damask-light),var(--damask-light);background-size:120px 168px;background-position:0 0,60px 84px}
+.paper-dark{background-color:var(--green);background-image:var(--damask-dark),var(--damask-dark);background-size:120px 168px;background-position:0 0,60px 84px}
+
+/* header */
+header{position:relative;z-index:2}
+.hd{display:flex;align-items:center;gap:22px;min-height:84px;border-bottom:1px solid var(--hair)}
+.brand{display:flex;align-items:center;gap:14px;text-decoration:none}
+.brand img{width:50px;height:50px;border-radius:50%;box-shadow:0 0 0 2px var(--plaster),0 0 0 3px var(--brass)}
+.brand b{display:block;font:500 25px/1 var(--serif);letter-spacing:.01em}
+.brand small{display:block;font:700 10.5px/1 var(--sans);letter-spacing:.24em;text-transform:uppercase;color:var(--muted);margin-top:6px}
+nav{margin-left:auto;display:flex;gap:28px}
+nav a{font:500 15px/1 var(--sans);padding:14px 0}
+.hd-tel{font:700 15px/1 var(--sans);text-decoration:none;border:1px solid var(--green);padding:13px 18px;border-radius:999px;transition:background .2s,color .2s}
+.hd-tel:hover{background:var(--green);color:var(--plaster)}
+
+/* hero */
+.hero{display:grid;grid-template-columns:1.08fr .92fr;gap:48px;align-items:center;padding:56px 0 70px;min-height:min(600px,82vh)}
+.hero .lab{color:var(--muted)}
+.hero .lab i{font-style:normal;color:var(--brass)}
+h1{font:400 clamp(58px,8.4vw,112px)/.92 var(--serif);letter-spacing:-.015em;margin:18px 0 6px}
+h1 em{display:block;font:500 clamp(16px,1.9vw,23px)/1 var(--sans);font-style:normal;letter-spacing:.62em;text-transform:uppercase;margin:16px 0 0 .3em;color:var(--green-2)}
+.lede{font:italic 400 clamp(20px,2.1vw,25px)/1.42 var(--serif);max-width:30ch;margin:30px 0 8px}
+.src{font:500 13px/1.4 var(--sans);color:var(--muted)}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin:30px 0 0}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 24px;border-radius:999px;font:700 15.5px/1 var(--sans);text-decoration:none;transition:background .2s,color .2s}
+.btn-g{background:var(--green);color:var(--plaster)}
+.btn-g:hover{background:var(--green-3)}
+.btn-o{border:1px solid var(--ink)}
+.btn-o:hover{background:var(--ink);color:var(--plaster)}
+.facts{display:flex;flex-wrap:wrap;gap:0;margin-top:38px;border-top:1px solid var(--hair)}
+.facts div{padding:16px 26px 0 0;margin-right:26px;border-right:1px solid var(--hair)}
+.facts div:last-child{border:0;margin:0}
+.facts b{display:block;font:500 22px/1.1 var(--serif)}
+.facts span{font:500 13px/1.4 var(--sans);color:var(--muted)}
+
+/* cameos */
+.cameo{position:relative;border-radius:50%;padding:9px;background:radial-gradient(closest-side,transparent 96%,var(--brass) 97%,var(--brass-lt) 99%,var(--brass) 100%),var(--blush)}
+.cameo::after{content:"";position:absolute;inset:4px;border-radius:50%;border:1px dotted rgba(31,56,50,.55);pointer-events:none}
+.cameo img{width:100%;height:100%;object-fit:cover;border-radius:50%;box-shadow:inset 0 0 0 1px var(--brass)}
+.stage{position:relative;justify-self:center;width:420px;height:470px}
+.stage .big{position:absolute;right:20px;top:0;width:320px;height:400px}
+.stage .small{position:absolute;left:0;bottom:0;width:178px;height:220px}
+.emblem{display:grid;place-items:center}
+.emblem img{width:58%!important;height:auto!important;border-radius:50%;box-shadow:0 0 0 2px var(--blush),0 0 0 3px var(--brass)!important}
+.stage .ribbon{position:absolute;right:0;bottom:30px;background:var(--plaster);border:1px solid var(--brass);padding:10px 16px 9px;text-align:center}
+.stage .ribbon b{display:block;font:500 15px/1.15 var(--serif)}
+.stage .ribbon span{font:700 10px/1.2 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+
+/* vitrine (money block) */
+.vitr{color:var(--plaster);padding:84px 0 92px;border-top:3px double var(--brass);border-bottom:3px double var(--brass)}
+.vitr-top{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:end;margin-bottom:54px}
+.vitr .lab{color:var(--brass-lt)}
+h2{font:400 clamp(36px,4.6vw,58px)/1.02 var(--serif);letter-spacing:-.01em;margin-top:12px}
+h2 i{color:var(--brass-lt)}
+.vitr p{color:rgba(241,241,236,.84);max-width:46ch}
+.vitr p q{font:italic 400 21px/1.4 var(--serif);color:var(--plaster)}
+.trio{display:grid;grid-template-columns:repeat(3,1fr);gap:40px;justify-items:center}
+.trio figure{display:flex;flex-direction:column;align-items:center;gap:18px}
+.trio .cameo{width:250px;height:300px;background:radial-gradient(closest-side,transparent 96%,var(--brass) 97%,var(--brass-lt) 99%,var(--brass) 100%),var(--green-3)}
+.trio .cameo::after{border-color:rgba(217,189,134,.6)}
+.trio figcaption{font:500 14px/1.3 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--brass-lt);border-top:1px solid var(--hair-lt);border-bottom:1px solid var(--hair-lt);padding:9px 14px}
+.note{display:flex;flex-wrap:wrap;justify-content:space-between;gap:18px;align-items:center;margin-top:56px;padding-top:24px;border-top:1px solid var(--hair-lt)}
+.note small{font:500 13.5px/1.5 var(--sans);color:rgba(241,241,236,.7);max-width:60ch}
+.btn-b{background:var(--brass-lt);color:var(--green-3)}
+.btn-b:hover{background:var(--plaster)}
+
+/* rooms */
+.rooms{padding:96px 0}
+.rooms-g{display:grid;grid-template-columns:.8fr 1.2fr;gap:64px;align-items:center}
+.rooms .cameo{width:300px;height:370px;justify-self:center}
+.rooms .lab{color:var(--muted)}
+.rooms h2{margin-bottom:22px}
+.quote{font:italic 400 22px/1.45 var(--serif);border-left:0;margin:0 0 6px;max-width:40ch}
+.card{margin-top:34px;border:1px solid var(--ink);outline:1px solid var(--ink);outline-offset:4px;padding:26px 30px;background:var(--plaster);max-width:560px}
+.card .lab{display:block;text-align:center;margin-bottom:14px;color:var(--ink)}
+.card ul{list-style:none;columns:2;column-gap:30px}
+.card li{font:500 20px/1.25 var(--serif);padding:9px 0;border-bottom:1px dotted var(--hair);break-inside:avoid}
+.card li::before{content:"";display:inline-block;width:6px;height:6px;border:1px solid var(--brass);transform:rotate(45deg);margin:0 12px 3px 0}
+.rooms .cta{margin-top:32px}
+
+/* medallions */
+.med{padding:0 0 96px}
+.med-g{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.med-g div{border:1px solid var(--hair);border-radius:50%/42%;padding:42px 28px;text-align:center;background:var(--plaster)}
+.med-g b{display:block;font:500 25px/1.15 var(--serif);margin:8px 0 8px}
+.med-g span{font:500 13.5px/1.45 var(--sans);color:var(--muted)}
+.med-g .lab{color:var(--brass)}
+
+/* rating */
+.rate{padding:80px 0;border-top:1px solid var(--hair);border-bottom:1px solid var(--hair);background:var(--plaster-2)}
+.rate-g{display:grid;grid-template-columns:auto 1fr auto;gap:56px;align-items:center}
+.score{font:400 120px/.8 var(--serif);letter-spacing:-.03em;color:var(--green)}
+.score small{font:500 26px/1 var(--serif);letter-spacing:0;color:var(--muted)}
+.rate p{font:italic 400 24px/1.35 var(--serif);max-width:26ch}
+.rate .src{display:block;font-style:normal;margin-top:10px}
+.fb{border-left:1px solid var(--hair);padding-left:40px}
+.fb b{display:block;font:400 54px/1 var(--serif);color:var(--green)}
+.fb span{font:500 13.5px/1.4 var(--sans);color:var(--muted)}
+
+/* contact */
+.kontakt{padding:96px 0}
+.k-g{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+.k-box{border:1px solid var(--green);outline:1px solid var(--green);outline-offset:5px;padding:34px 36px;background:var(--plaster)}
+.k-row{display:grid;grid-template-columns:110px 1fr;gap:18px;padding:15px 0;border-bottom:1px solid var(--hair)}
+.k-row:last-child{border:0}
+.k-row dt{font:700 11.5px/1.7 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.k-row dd{font:500 17px/1.5 var(--sans)}
+.k-row dd a{font-weight:700}
+.k-row .ov{display:inline-block;font:700 11px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--caramel);border:1px solid currentColor;padding:4px 7px 3px;margin-left:8px;vertical-align:2px}
+.links{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.kontakt h2{margin-bottom:20px}
+.kontakt p{color:var(--muted);max-width:44ch}
+
+footer{color:rgba(241,241,236,.78);padding:30px 0 34px;font:500 14px/1.5 var(--sans)}
+.ft{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
+.ft b{font:500 20px/1 var(--serif);color:var(--plaster)}
+
+.mbar{display:none}
+@media (max-width:980px){
+  nav{display:none}
+  .hero{grid-template-columns:1fr;gap:40px;padding:40px 0 60px;min-height:0}
+  .vitr-top,.rooms-g,.k-g{grid-template-columns:1fr}
+  .rate-g{grid-template-columns:1fr;gap:26px}
+  .fb{border-left:0;padding-left:0;border-top:1px solid var(--hair);padding-top:22px}
+  .trio{grid-template-columns:1fr 1fr}
+  .trio figure:last-child{grid-column:1/-1}
+}
+@media (max-width:640px){
+  body{font-size:16px}
+  footer{padding-bottom:calc(98px + env(safe-area-inset-bottom))}
+  .w.hero{padding-top:34px;padding-bottom:56px}
+  .w{padding:0 18px}
+  .hd{min-height:70px;gap:12px}
+  .brand img{width:42px;height:42px}
+  .brand b{font-size:21px}
+  .hd-tel{display:none}
+  .stage{width:330px;height:380px}
+  .stage .big{width:250px;height:312px;right:10px}
+  .stage .small{width:140px;height:174px}
+  .emblem{display:grid;place-items:center}
+.emblem img{width:58%!important;height:auto!important;border-radius:50%;box-shadow:0 0 0 2px var(--blush),0 0 0 3px var(--brass)!important}
+.stage .ribbon{bottom:12px;padding:8px 12px 7px}
+  .facts div{padding-right:18px;margin-right:18px}
+  .facts div:nth-child(3){border:0;margin:0}
+  .facts b{font-size:20px}
+  .vitr{padding:64px 0 70px}
+  .trio{grid-template-columns:1fr 1fr;gap:26px 14px}
+  .trio .cameo{width:150px;height:184px;padding:6px}
+  .trio figcaption{font-size:12px;padding:7px 8px;letter-spacing:.1em}
+  .rooms,.kontakt{padding:70px 0}
+  .rooms .cameo{width:250px;height:308px}
+  .card{padding:20px 20px;outline-offset:3px}
+  .card ul{columns:1}
+  .med-g{grid-template-columns:1fr;gap:14px}
+  .med-g div{padding:30px 24px}
+  .med{padding-bottom:70px}
+  .score{font-size:96px}
+  .k-box{padding:22px 20px}
+  .k-row{grid-template-columns:1fr;gap:2px}
+  .mbar{display:grid;grid-template-columns:1fr 1fr;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:10;background:var(--green-3);padding:8px 12px calc(8px + env(safe-area-inset-bottom))}
+  .mbar a{display:flex;align-items:center;justify-content:center;min-height:48px;border-radius:999px;font:700 16px/1 var(--sans);text-decoration:none;color:var(--plaster);border:1px solid var(--hair-lt)}
+  .mbar a:first-child{background:var(--brass-lt);color:var(--green-3);border-color:var(--brass-lt)}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="notice">Neoficiálny návrh — nie je to oficiálny web podniku · ukážka od webdavid.sk, objednávky ani rezervácie tu nefungujú</div>
+
+<div class="paper">
+<header class="w">
+  <div class="hd">
+    <a class="brand" href="#top" aria-label="Victoria Caffee — na začiatok">
+      <img src="assets/victoria-logo.webp" width="154" height="154" alt="Logo Victoria Caffee">
+      <span><b>Victoria Caffee</b><small>kaviareň · Trenčín-Záblatie</small></span>
+    </a>
+    <nav aria-label="Hlavná navigácia">
+      <a class="u" href="#vitrina">Vitrína</a>
+      <a class="u" href="#miestnosti">Miestnosti a oslavy</a>
+      <a class="u" href="#kontakt">Kontakt</a>
+    </nav>
+    <a class="hd-tel num" href="tel:+421911222860">0911 222 860</a>
+  </div>
+</header>
+
+<main id="top">
+<section class="w hero" aria-labelledby="h1">
+  <div>
+    <p class="lab">Kaviareň <i>·</i> Pri parku 25/23 <i>·</i> Záblatie</p>
+    <h1 id="h1">Victoria<em>Caffee</em></h1>
+    <p class="lede">„Útulná kaviareň s viacerými miestnosťami pre vytvorenie súkromia. Domáce prostredie.“</p>
+    <p class="src">— z ich predstavenia na Facebooku</p>
+    <div class="cta">
+      <a class="btn btn-g num" href="tel:+421911222860">Zavolať 0911 222 860</a>
+      <a class="btn btn-o" href="https://www.google.com/maps/search/Victoria+Caffee+Pri+parku+25+Trenčín" target="_blank" rel="noopener">Ako k nám</a>
+    </div>
+    <div class="facts">
+      <div><b class="num">4,7 ★</b><span>Google · 101 hodnotení</span></div>
+      <div><b class="num">14:00–21:00</b><span>denne · overiť</span></div>
+      <div><b>Pizza</b><span>aj zákusky</span></div>
+    </div>
+  </div>
+  <div class="stage" aria-hidden="false">
+    <div class="cameo big"><img src="assets/vitrina-zakusky.webp" width="320" height="314" alt="Presklená vitrína plná zákuskov — torta, rezy a košíčky" fetchpriority="high"></div>
+    <div class="cameo small emblem"><img src="assets/victoria-logo.webp" width="154" height="154" alt="Znak kaviarne Victoria Caffee"></div>
+    <div class="ribbon"><b>Denne čerstvé</b><span>zákusky</span></div>
+  </div>
+</section>
+</main>
+</div>
+
+<section class="vitr paper-dark" id="vitrina" aria-labelledby="h-vitr">
+  <div class="w">
+    <div class="vitr-top">
+      <div>
+        <p class="lab">Vitrína</p>
+        <h2 id="h-vitr">Každý deň <i>čerstvé</i> zákusky</h2>
+      </div>
+      <p><q>Denne čerstvé zákusky. V ponuke pizza.</q><br>Rezy, torty a košíčky — priamo z vitríny kaviarne.</p>
+    </div>
+    <div class="trio">
+      <figure><div class="cameo"><img src="assets/vitrina-police.webp" width="315" height="315" loading="lazy" alt="Police vitríny so zákuskami, roládami a košíčkami"></div><figcaption>Horná polica</figcaption></figure>
+      <figure><div class="cameo"><img src="assets/vitrina-rezy.webp" width="315" height="275" loading="lazy" alt="Rezy a dezerty v pohári vo vitríne"></div><figcaption>Rezy a dezerty</figcaption></figure>
+      <figure><div class="cameo"><img src="assets/vitrina-torty.webp" width="315" height="218" loading="lazy" alt="Rezy s ovocím a čokoládou na tácoch vo vitríne"></div><figcaption>Z tácov</figcaption></figure>
+    </div>
+    <div class="note">
+      <small>Ukážka návrhu: aktuálnu ponuku zákuskov, pizze a cenník doplní kaviareň. Fotky sú z ich facebookovej stránky.</small>
+      <a class="btn btn-b" href="tel:+421911222860">Opýtať sa, čo je dnes vo vitríne</a>
+    </div>
+  </div>
+</section>
+
+<section class="rooms" id="miestnosti" aria-labelledby="h-rooms">
+  <div class="w rooms-g">
+    <div class="cameo"><img src="assets/kaviaren-bar.webp" width="315" height="315" loading="lazy" alt="Interiér kaviarne pri bare, závesné žiarovky"></div>
+    <div>
+      <p class="lab">Miestnosti a súkromné akcie</p>
+      <h2 id="h-rooms">Viac miestností, viac súkromia</h2>
+      <p class="quote">„Možnosť zorganizovania oslavy, súkromnej akcie, besedy, prednášky, porady.“</p>
+      <p class="src">— Victoria Caffee na Facebooku</p>
+      <div class="card">
+        <span class="lab">U nás sa dá zorganizovať</span>
+        <ul>
+          <li>oslava</li><li>súkromná akcia</li><li>beseda</li><li>prednáška</li><li>porada</li>
+        </ul>
+      </div>
+      <div class="cta">
+        <a class="btn btn-g" href="tel:+421911222860">Dohodnúť termín telefonicky</a>
+        <a class="btn btn-o" href="mailto:victoria.caffee@gmail.com">Napísať e-mail</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="med" aria-label="Čo u nás nájdete">
+  <div class="w med-g">
+    <div><span class="lab">Vonku</span><b>Posedenie vonku</b><span>sedenie pod holým nebom (podľa FB stránky)</span></div>
+    <div><span class="lab">Pre rodiny</span><b>Detské ihrisko</b><span>preliezky a hojdačky pri kaviarni (podľa Wanderlog)</span></div>
+    <div><span class="lab">Na pulte</span><b>Široká ponuka</b><span>„Široká ponuka produktov a tovaru.“ — z ich FB</span></div>
+  </div>
+</section>
+
+<section class="rate" aria-labelledby="h-rate">
+  <div class="w rate-g">
+    <div class="score num">4,7<small> / 5</small></div>
+    <p id="h-rate">Hostia ju hodnotia vysoko — 101&nbsp;hodnotení na Google.<span class="src">Google cez Wanderlog, 4. 10. 2026</span></p>
+    <div class="fb"><b class="num">100 %</b><span>odporúča na Facebooku<br>(10 recenzií, 4. 10. 2026)</span></div>
+  </div>
+</section>
+
+<section class="kontakt" id="kontakt" aria-labelledby="h-k">
+  <div class="w k-g">
+    <div>
+      <p class="lab" style="color:var(--muted)">Kontakt</p>
+      <h2 id="h-k">Pri parku v Záblatí</h2>
+      <p>Na oslavu, poradu či len na kávu a zákusok — najrýchlejšie je zavolať. Otváracie hodiny pred návštevou radšej overte.</p>
+      <div class="links">
+        <a class="btn btn-g" href="https://www.google.com/maps/search/Victoria+Caffee+Pri+parku+25+Trenčín" target="_blank" rel="noopener">Otvoriť v Mapách Google</a>
+        <a class="btn btn-o" href="https://www.facebook.com/people/Victoria-Caffee/100049512229200/" target="_blank" rel="noopener">Facebook</a>
+        <a class="btn btn-o" href="https://www.instagram.com/victoria_caffee_/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+    <dl class="k-box">
+      <div class="k-row"><dt>Adresa</dt><dd>Pri parku 25/23<br>911 06 Trenčín-Záblatie</dd></div>
+      <div class="k-row"><dt>Telefón</dt><dd><a class="u num" href="tel:+421911222860">+421 911 222 860</a></dd></div>
+      <div class="k-row"><dt>E-mail</dt><dd><a class="u" href="mailto:victoria.caffee@gmail.com">victoria.caffee@gmail.com</a></dd></div>
+      <div class="k-row"><dt>Hodiny</dt><dd><span class="num">denne 14:00–21:00</span><span class="ov">overiť</span></dd></div>
+    </dl>
+  </div>
+</section>
+
+<footer class="paper-dark">
+  <div class="w ft"><b>Victoria Caffee</b><span>Neoficiálny návrh webu · webdavid.sk · 2026</span></div>
+</footer>
+
+<div class="mbar"><a href="tel:+421911222860">Zavolať</a><a href="https://www.google.com/maps/search/Victoria+Caffee+Pri+parku+25+Trenčín" target="_blank" rel="noopener">Mapa</a></div>
